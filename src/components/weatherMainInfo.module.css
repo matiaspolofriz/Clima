@@ -1,0 +1,49 @@
+.mainInfo {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.city {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bolder;
+}
+.country {
+  font-size: 20px;
+  text-align: center;
+}
+
+.current {
+  width: 95px;
+  flex: 0 1 50px;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.imag {
+  display: flex;
+  height: 1;
+  width: 1;
+  background-color: white;
+  border: solid 0px #1c4051;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.mapa {
+  border-radius: 40px;
+  margin-top: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  height: 100%;
+  width: 100%;
+  border: solid 2px rgb(0, 0, 0);
+}
